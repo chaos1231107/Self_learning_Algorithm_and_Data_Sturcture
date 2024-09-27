@@ -1,0 +1,41 @@
+#include <bits/stdc++.h>
+using namespace std;
+void selection_sort(int list[],int n)
+{
+    int temp, least;
+    for (int i = 0; i < n-1; i++)
+    {
+        least = i;
+        for (int j = i+1; j < n; j++)
+        {
+            if (list[j] < list[least])
+            {
+                least  = j;
+            }
+        }
+        if (i != least)
+        {
+            int temp = list[i];
+            list[i] = list[least];
+            list[i+1] = temp;
+        }
+    }
+}
+
+int main()
+{
+    int n;
+    cin >> n;
+    vector<int> v(n);
+    
+    for (int i = 0; i < n; i++)
+    {
+        cin >> v[i];
+    }
+    selection_sort(v.data(),n);
+    
+    for (int i = 0; i < n; i++)
+    {
+        cout << v[i] << " ";
+    }
+}
