@@ -28,3 +28,4 @@ int main()
     }
     
 }
+https://en.wikipedia.org/wiki/Big_O_notation
