@@ -29,3 +29,7 @@ int main()
     
 }
 https://en.wikipedia.org/wiki/Big_O_notation
+Big O notation is a mathematical notation that describes the limiting behavior of a function when 
+the argument tends towards a particular value or infinity. 
+|f(x)| <= Mg(x) for all x >= x0
+f(x) = O(g(x)) as x --> a(sum real number)
