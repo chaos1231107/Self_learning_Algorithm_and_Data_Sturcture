@@ -1,4 +1,6 @@
-# Self Learning Computer Programming Algorithm by using C/C++, Python
+# Self Learning Computer Programming Algorithm.
+## Language : C/C++, Python.
+## Developement Environment : Windows, Mac Os
 # 알아두면 편리한 알고리즘 모음
 ## 정렬(Sorting Algorithm) : bubble sort(버블정렬), selection sort(선택정렬), insertion sort(삽입정렬), quick sort(퀵정렬)
 ## 시간복잡도(Time Complexity) : 시간복잡도 계산, Big O 표기법
