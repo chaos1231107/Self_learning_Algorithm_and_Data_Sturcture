@@ -12,3 +12,4 @@
 ## <참고서적>
 ### 📖 Do it 자료구조로 입문하는 알고리즘 C언어편
 ### 🖥️ [자료구조] 해시테이블 : https://lrl.kr/hpKL
+### ![image](https://github.com/user-attachments/assets/0a797676-e6ae-43ed-8e8e-65d94b166832) https://www.youtube.com/watch?v=HraOg7W3VAM
