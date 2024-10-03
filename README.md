@@ -14,3 +14,4 @@
 ### 📖 Do it 자료구조로 입문하는 알고리즘 C언어편
 ### 🖥️ [자료구조] 해시테이블 : https://lrl.kr/hpKL
 ### 🖥️ https://www.youtube.com/watch?v=HraOg7W3VAM
+### 🖥️ Stack(스택): https://code-lab1.tistory.com/5
