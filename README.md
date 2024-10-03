@@ -1,7 +1,7 @@
-# Self Learning Computer Programming Algorithm.
+# Self Learning Computer Algorithm and Data Structure
 ## Language : C/C++, Python.
 ## Developement Environment : Windows, Mac Os
-# ✅ 알아두면 편리한 알고리즘 모음 ✅
+# ✅ 알아두면 편리한 알고리즘 / 자료구조 모음 ✅
 ## ✅ 정렬(Sorting Algorithm) : bubble sort(버블정렬), selection sort(선택정렬), insertion sort(삽입정렬), quick sort(퀵정렬)
 ## ✅ 시간복잡도(Time Complexity) : 시간복잡도 계산, Big O 표기법
 ## ✅ 재귀 알고리즘 : 정의된 함수내에서 함수를 재호출하는 알고리즘 ex) 피보나치 수열, 팩토리얼(큰수처리)
