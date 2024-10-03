@@ -11,4 +11,4 @@
 
 ## <참고서적>
 ### 📖 Do it 자료구조로 입문하는 알고리즘 C언어편
-### 🖥️ https://velog.io/@hysong/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%ED%95%B4%EC%8B%9C-%ED%85%8C%EC%9D%B4%EB%B8%94Hash-Table
+### 🖥️ https://lrl.kr/hpKL
