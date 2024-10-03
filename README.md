@@ -8,7 +8,7 @@
 ## ✅ 에라토네스의 체 : 주어진 범위에서 소수판별
 ## ✅ 탐색(Searching) 알고리즘 : 브루드 포스, 그리디, 선형탐색(linear search), 이진탐색(binary search)
 ## ✅ Hash Table(해시 테이블) : (key, value)로 데이터를 저장하는 자료구조, 빠르게 데이터를 탐색할 수 있도록 만들어진 자료구조중 하나이다.
-## ✅ Stack(스택) 
+## ✅ Stack(스택) : Last In First Out(LIFO)의 형태를 가지는 자료구조
 
 ## <참고서적>
 ### 📖 Do it 자료구조로 입문하는 알고리즘 C언어편
