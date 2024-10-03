@@ -7,6 +7,8 @@
 ## ✅ 재귀 알고리즘 : 정의된 함수내에서 함수를 재호출하는 알고리즘 ex) 피보나치 수열, 팩토리얼(큰수처리)
 ## ✅ 에라토네스의 체 : 주어진 범위에서 소수판별
 ## ✅ 탐색(Searching) 알고리즘 : 브루드 포스, 그리디, 선형탐색(linear search), 이진탐색(binary search)
+## ✅ Hash Table(해시 테이블) 
 
 ## <참고서적>
 ### 📖 Do it 자료구조로 입문하는 알고리즘 C언어편
+### 🖥️ https://velog.io/@hysong/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%ED%95%B4%EC%8B%9C-%ED%85%8C%EC%9D%B4%EB%B8%94Hash-Table
