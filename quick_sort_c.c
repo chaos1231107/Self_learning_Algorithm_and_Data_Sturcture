@@ -26,9 +26,11 @@ void quick_sort(int *arr, int L, int R)
     }while (left <= right);
     
     if (L < right)
+        //pivot기준 왼쪽 정렬
         quick_sort(arr,L,right);
     
     if (left < R)
+        //pivot 기준 오른쪽 정렬
         quick_sort(arr,left,R);
 }
 
