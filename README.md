@@ -13,5 +13,6 @@
 ## <참고서적>
 ### 📖 Do it 자료구조로 입문하는 알고리즘 C언어편
 ### 🖥️ [자료구조] 해시테이블 : https://lrl.kr/hpKL
+### 🖥️ Quick Sort : https://code-lab1.tistory.com/23#google_vignette
 ### 🖥️ https://www.youtube.com/watch?v=HraOg7W3VAM
 ### 🖥️ Stack : https://code-lab1.tistory.com/5
