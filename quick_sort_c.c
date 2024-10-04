@@ -14,6 +14,7 @@ void quick_sort(int *arr, int L, int R)
             left++;
         while(arr[right] > pivot)
             right--;
+        // left와 right가 멈출 때, left가  right보다 오른쪽에 왼쪽에 있으면, swap
         if(left <= right)
         {
             temp = arr[left];
