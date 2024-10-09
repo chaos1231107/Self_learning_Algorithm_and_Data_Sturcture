@@ -7,7 +7,7 @@
 ## ✅ 시간복잡도(Time Complexity) : 시간복잡도 계산, Big O 표기법
 ## ✅ 재귀 알고리즘 : 정의된 함수내에서 함수를 재호출하는 알고리즘 ex) 피보나치 수열, 팩토리얼(큰수처리)
 ## ✅ 에라토네스의 체 : 주어진 범위에서 소수판별
-## ✅ 탐색(Searching) 알고리즘 : 브루드 포스, 그리디, 선형탐색(linear search), 이진탐색(binary search)
+## ✅ 탐색(Searching) 알고리즘 : 브루드 포스, 그리디, 선형탐색(linear search), 보초법(Sequential Methode) 이진탐색(binary search), 
 ## ✅ Hash Table(해시 테이블) : (key, value)로 데이터를 저장하는 자료구조, 빠르게 데이터를 탐색할 수 있도록 만들어진 자료구조중 하나이다.
 ## ✅ Stack(스택) : Last In First Out(LIFO)의 형태를 가지는 자료구조
 ## ✅ Queue(큐) : First in First Out(FIFO)의 형태를 가지는 자료구조
