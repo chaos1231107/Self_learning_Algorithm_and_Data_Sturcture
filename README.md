@@ -11,9 +11,10 @@
 ## ✅ 탐색(Searching) 알고리즘 : 브루드 포스, 그리디, 선형탐색(linear search), 보초법(Sequential Methode) 이진탐색(binary search), 
 ## ✅ Hash Table(해시 테이블) : (key, value)로 데이터를 저장하는 자료구조, 빠르게 데이터를 탐색할 수 있도록 만들어진 자료구조중 하나이다.
 # <Data Structure>
-## ✅ Array(배열) 
+## ✅ Array(배열) : Index와 Element로 구성되어 있으며, 연속적으로 data가 나열되어 있는 형태의 자료구조
 ## ✅ Stack(스택) : Last In First Out(LIFO)의 형태를 가지는 자료구조
 ## ✅ Queue(큐) : First in First Out(FIFO)의 형태를 가지는 자료구조
+## ✅ Circular Queue(원형큐) 
 ## ✅ Linked List(연결리스트) : 각 노드가 데이터와 포인터를 가지고 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 자료구조
 
 ## <참고서적>
