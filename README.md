@@ -7,7 +7,7 @@
 ### ✅ 분할정복 알고리즘(Devide and Conquer Algorithm) : quick sort(퀵정렬), merge sort(합병정렬)
 ## ✅ 시간복잡도(Time Complexity) : 프로그램이 실행(탐색)되는데 걸리는 시간을 객관적으로 평가하는 지표, 시간복잡도 계산, Big O 표기법
 ## ✅ 재귀 알고리즘 : 정의된 함수내에서 함수를 재호출하는 알고리즘 ex) 피보나치 수열, 팩토리얼(큰수처리)
-## ✅ 에라토네스의 체 : 주어진 범위에서 소수판별
+## ✅ 에라토네스의 체 : 주어진 범위에서 소수판별, 수학자 에라토네스가 제안한 방법이며, 약수의 대칭성을 이용한 개선된 소수판별 알고리즘.
 ## ✅ 탐색(Searching) 알고리즘 : 브루드 포스, 그리디, 선형탐색(linear search), 보초법(Sequential Methode) 이진탐색(binary search), 
 ## ✅ Hash Table(해시 테이블) : (key, value)로 데이터를 저장하는 자료구조, 빠르게 데이터를 탐색할 수 있도록 만들어진 자료구조중 하나이다.
 # Data Structure (자료구조)
