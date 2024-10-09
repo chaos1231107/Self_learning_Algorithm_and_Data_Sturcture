@@ -1,8 +1,8 @@
 # Self Learning Computer Algorithm and Data Structure
 ## Programming Language 
 <h1/>
-### <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++ Badge">
-### <img src="https://img.shields.io/badge/Python-3776aB?style=for-the-badge&logo=python&logoColor=yellow">
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++ Badge">
+<img src="https://img.shields.io/badge/Python-3776aB?style=for-the-badge&logo=python&logoColor=yellow">
 </h1>
 #### Python의 경우 자료구조를 구현할 때 외부 라이브러리에 의존을 하므로, 실제적으로 자료구조를 시뮬레이션 할 뿐 C언어와 같이 자료구조를 정확히 구현 할 수 없다
 ## Developement Environment : Windows, Mac Os
