@@ -8,6 +8,7 @@
 </h1>
 
 #### Python의 경우 자료구조를 구현할 때 외부 라이브러리에 의존하므로, 실제적으로 자료구조를 시뮬레이션 할 뿐 C언어와 같이 자료구조를 정확히 구현 할 수 없다.(Relization 또는 Implementation과 Simulation은 구분되며, 엄연히 다른 과정이다)
+#### 즉 Python 이나 JAVA Java Script로 구현하는 자료구조는 짭이다. 컴퓨터 내부적으로보나 외부적으로 보나 C로 짜여진 코드만이 자료구조를 정확히 구현하고 실행할 수 있다.
 ## Developement Environment : Windows, Mac Os
 # ✅ 알아두면 편리한 알고리즘 / 자료구조 모음 ✅
 # Algorithm (알고리즘)
