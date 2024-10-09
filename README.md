@@ -2,7 +2,7 @@
 ## Language : C/C++, Python.
 ## Developement Environment : Windows, Mac Os
 # ✅ 알아두면 편리한 알고리즘 / 자료구조 모음 ✅
-# <Algorithm> 
+# Algorithm 
 ## ✅ 정렬(Sorting Algorithm) : bubble sort(버블정렬), selection sort(선택정렬), insertion sort(삽입정렬), quick sort(퀵정렬), merge sort(합병정렬)
 ### ✅ 분할정복 알고리즘(Devide and Conquer Algorithm) : quick sort(퀵정렬), merge sort(합병정렬)
 ## ✅ 시간복잡도(Time Complexity) : 시간복잡도 계산, Big O 표기법
@@ -10,7 +10,7 @@
 ## ✅ 에라토네스의 체 : 주어진 범위에서 소수판별
 ## ✅ 탐색(Searching) 알고리즘 : 브루드 포스, 그리디, 선형탐색(linear search), 보초법(Sequential Methode) 이진탐색(binary search), 
 ## ✅ Hash Table(해시 테이블) : (key, value)로 데이터를 저장하는 자료구조, 빠르게 데이터를 탐색할 수 있도록 만들어진 자료구조중 하나이다.
-# <Data Structure>
+# Data Structure
 ## ✅ Array(배열) : Index와 Element로 구성되어 있으며, 연속적으로 data가 나열되어 있는 형태의 자료구조
 ## ✅ Stack(스택) : Last In First Out(LIFO)의 형태를 가지는 자료구조
 ## ✅ Queue(큐) : First in First Out(FIFO)의 형태를 가지는 자료구조
