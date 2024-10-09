@@ -14,7 +14,7 @@
 ## ✅ Array(배열) : Index와 Element로 구성되어 있으며, 연속적으로 data가 나열되어 있는 형태의 자료구조
 ## ✅ Stack(스택) : Last In First Out(LIFO)의 형태를 가지는 자료구조
 ## ✅ Queue(큐) : First in First Out(FIFO)의 형태를 가지는 자료구조
-## ✅ Circular Queue(원형큐) 
+## ✅ Circular Queue, Ring Buffer (원형큐) : data를 꺼내는 Dequeue() 과정에서 인덱스를 한칸씩 밀때 발생하는 비효율성(Time Complexity = O(N))을 극복하기 위해 원의 모양으로 만들어진 Queue
 ## ✅ Linked List(연결리스트) : 각 노드가 데이터와 포인터를 가지고 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 자료구조
 
 ## <참고서적>
