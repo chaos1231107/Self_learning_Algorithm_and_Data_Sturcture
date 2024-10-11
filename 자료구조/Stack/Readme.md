@@ -3,6 +3,7 @@
 ## Stack의 구현
 ### Programming Language 
 <img src="https://img.shields.io/badge/C-3776AB?style=for-the-badge&logo=C&logoColor=black">
+
 ## Stack 구조체 (IntStack) : Stack을 관리하는 구조체
 ## Files
 ### IntSack.h : Stack을 구현하기 위한 C언어로 작성된 header file
