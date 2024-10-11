@@ -16,7 +16,7 @@
 ### III) ptr -> Stack Pointer, Stack이 쌓여있는 데이터의 개수
 
 ## Functions
-### I) Push(IntStack *s, int x) : Stack에 데이터를 추가하는 함수
+### I) Push(IntStack *s, int x) :  Stack에 데이터를 추가하는 함수, 매개변수 : Stack으로 사용하는 int형 array의 value x, 리턴값 : 
 ### II) Pop(IntStack *s, int *x) : Stack에서 데이터를 빼내는 함수
 ### III) Peek(IntStack *s, int *x) : Top의 데이터를 엿보는 함수
 ### IV) Clear(IntStack *s) : Stack의 모든 요소를 삭제하는 함수
