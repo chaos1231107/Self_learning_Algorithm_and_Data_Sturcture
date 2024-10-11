@@ -1,7 +1,7 @@
 ## Stack : 일시적으로 데이터를 저장하기 위한 Last In First Out(LIFO)의 구조를 가지는 자료구조.
 ### 함수가 호출될 때 Push()가 return값을 반환하고 종료될 때 Pop()이 일어난다.
 ## Stack의 구현
-### Programming Language 
+### Programming Language : C/C++
 <h1>
 <img src="https://img.shields.io/badge/C-3776AB?style=for-the-badge&logo=C&logoColor=black">
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++ Badge">
