@@ -16,14 +16,15 @@
 ### III) ptr -> Stack Pointer, Stack이 쌓여있는 데이터의 개수
 
 ## Functions
-### I) Push(IntStack *s, int x) :  Stack에 데이터를 추가하는 함수
-### II) Pop(IntStack *s, int *x) : Stack에서 데이터를 빼내는 함수
-### III) Peek(IntStack *s, int *x) : Top의 데이터를 엿보는 함수
-### IV) Clear(IntStack *s) : Stack의 모든 요소를 삭제하는 함수
-### V) IsEpty(const IntStack *s) : Stack이 비어있는지 확인하는 함수
-### VI) Capacity(const IntStack *s) : Stack의 용량을 확인하는 함수
-### VII) IsFULL(const IntStack *s) : Stack이 가득 찼는지 확인하는 함수
-### VIII) Search(IntStack *s, int x) : Stack에서 임의의 값을 탐색하는 함수
-### IX) Print(IntStack *s) : Stack의 모든 데이터를 출력하는 함수
-### X) Terminate(IntStack *s) : Stack을 종료시키는 함수, Stack으로 사용하고 있는 배열을 삭제
+### I) int Initialize(IntStack *s, int max) : Stack으로 사용할 array를 Initialize(초기화) 하는 함수
+### II) Push(IntStack *s, int x) :  Stack에 데이터를 추가하는 함수
+### III) Pop(IntStack *s, int *x) : Stack에서 데이터를 빼내는 함수
+### IV) Peek(IntStack *s, int *x) : Top의 데이터를 엿보는 함수
+### V) Clear(IntStack *s) : Stack의 모든 요소를 삭제하는 함수
+### VI) IsEpty(const IntStack *s) : Stack이 비어있는지 확인하는 함수
+### VII) Capacity(const IntStack *s) : Stack의 용량을 확인하는 함수
+### VIII) IsFULL(const IntStack *s) : Stack이 가득 찼는지 확인하는 함수
+### IX) Search(IntStack *s, int x) : Stack에서 임의의 값을 탐색하는 함수
+### X) Print(IntStack *s) : Stack의 모든 데이터를 출력하는 함수
+### XI) Terminate(IntStack *s) : Stack을 종료시키는 함수, Stack으로 사용하고 있는 배열을 삭제
 
