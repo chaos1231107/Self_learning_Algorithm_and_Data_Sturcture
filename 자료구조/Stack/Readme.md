@@ -1,7 +1,8 @@
 ## Stack : 일시적으로 데이터를 저장하기 위한 Last In First Out(LiFO)의 구조를 가지는 자료구조.
 ### 함수가 실행될 때 Push()가 종료될 때 Pop()이 일어난다.
 ## Stack의 구현
-### Programming Language : 
+### Programming Language 
+<img src="https://img.shields.io/badge/C-3776AB?style=for-the-badge&logo=C&logoColor=black">
 ## Stack 구조체 (IntStack) : Stack을 관리하는 구조체
 ## Files
 ### IntSack.h : Stack을 구현하기 위한 C언어로 작성된 header file
