@@ -2,7 +2,10 @@
 ### 함수가 실행될 때 Push()가 종료될 때 Pop()이 일어난다.
 ## Stack의 구현
 ### Programming Language 
+<h1>
 <img src="https://img.shields.io/badge/C-3776AB?style=for-the-badge&logo=C&logoColor=black">
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++ Badge">
+</h1>
 
 ## Stack 구조체 (IntStack) : Stack을 관리하는 구조체
 ## Files
