@@ -29,6 +29,7 @@
 ### XI) Terminate(IntStack *s) : Stack을 종료시키는 함수, Stack으로 사용하고 있는 배열을 삭제
 
 ## References
+### https://www.youtube.com/watch?v=Q2Up3PN0-nM
 ### Stack, push(), pop() : Operating Systems Concept
 ### Stack Pointer : 혼자공부하는 컴퓨터 구조 + 운영체제(강민철 저)
 ### do it 자료구조로 배우는 알고리즘 입문 C언어편
