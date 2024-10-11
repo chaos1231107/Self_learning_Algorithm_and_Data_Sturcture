@@ -3,6 +3,21 @@
 
 ## Stack 구조체 (IntStack) : Stack을 관리하는 구조체
 
+
+## Paramaters
 ### I) stk -> Stack으로 사용할 배열을 가리키는 Pointer
 ### II) max -> Stack의 최대용량을 나타내는 int형 멤버, stk의 요소개수와 동일
 ### III) ptr -> Stack Pointer, Stack이 쌓여있는 데이터의 개수
+
+## Functions
+### Push(IntStack *s, int x) : Stack에 데이터를 추가하는 함수
+### Pop(IntStack *s, int *x) : Stack에서 데이터를 빼내는 함수
+### Peek(IntStack *s, int *x) : Top의 데이터를 엿보는 함수
+### Clear(IntStack *s) : Stack의 모든 요소를 삭제하는 함수
+### IsEpty(const IntStack *s) : Stack이 비어있는지 확인하는 함수
+### Capacity(const IntStack *s) : Stack의 용량을 확인하는 함수
+### IsFULL(const IntStack *s) : Stack이 가득 찼는지 확인하는 함수
+### Search(IntStack *s, int x) : Stack에서 임의의 값을 탐색하는 함수
+### Print(IntStack *s) : Stack의 모든 데이터를 출력하는 함수
+### Terminate(IntStack *s) : Stack을 종료시키는 함수, Stack으로 사용하고 있는 배열을 삭제
+
