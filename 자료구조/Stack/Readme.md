@@ -3,7 +3,7 @@
 
 ## Stack 구조체 (IntStack) : Stack을 관리하는 구조체
 ## Files
-### IntSack.h : Stack을 구현하기 위한 C로 작성된 header file
+### IntSack.h : Stack을 구현하기 위한 C언어로 작성된 header file
 ## Paramaters
 ### I) stk -> Stack으로 사용할 배열을 가리키는 Pointer
 ### II) max -> Stack의 최대용량을 나타내는 int형 멤버, stk의 요소개수와 동일
