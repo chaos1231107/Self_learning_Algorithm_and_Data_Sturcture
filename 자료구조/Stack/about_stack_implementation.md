@@ -16,7 +16,7 @@
 ### III) ptr -> Stack Pointer, Stack이 쌓여있는 데이터의 개수
 
 ## Functions
-### I) int Initialize(IntStack *s, int max) : Stack으로 사용할 array를 Initialize(초기화) 하는 함수
+### I) int Initialize(IntStack *s, int max) : Stack으로 사용할 array를 Initialize 하는 함수
 ### II) Push(IntStack *s, int x) :  Stack에 데이터를 추가하는 함수
 ### III) Pop(IntStack *s, int *x) : Stack에서 데이터를 빼내는 함수
 ### IV) Peek(IntStack *s, int *x) : Top의 데이터를 엿보는 함수
