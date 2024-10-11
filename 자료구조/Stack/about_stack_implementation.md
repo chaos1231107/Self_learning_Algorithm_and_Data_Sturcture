@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++ Badge">
 </h1>
 
-## Stack 구조체 (IntStack) : Stack을 관리하는 구조체, typedef Struct를 통새 declare된다
+## Stack 구조체 (IntStack) : Stack을 관리하는 구조체, typedef Struct를 통해 declare된다
 ## Files
 ### IntSack.h : Stack을 구현할 때 필요한 함수들을 저장하는 header file
 ## Paramaters
@@ -27,4 +27,11 @@
 ### IX) Search(IntStack *s, int x) : Stack에서 임의의 값을 탐색하는 함수
 ### X) Print(IntStack *s) : Stack의 모든 데이터를 출력하는 함수
 ### XI) Terminate(IntStack *s) : Stack을 종료시키는 함수, Stack으로 사용하고 있는 배열을 삭제
+
+## References
+### Stack, push(), pop() : Operating Systems Concept
+### Stack Pointer : 혼자공부하는 컴퓨터 구조 + 운영체제(강민철 저)
+### do it 자료구조로 배우는 알고리즘 입문 C언어편
+### Unix System (이승주 저)
+
 
