@@ -30,7 +30,7 @@
 
 ## References
 ### Stack : https://www.youtube.com/watch?v=Q2Up3PN0-nM
-### Stack, push(), pop() : Operating Systems Concept
+### Stack, push(), pop() : Operating Systems Concept(공룡책)
 ### Stack Pointer : 혼자공부하는 컴퓨터 구조 + 운영체제(강민철 저)
 ### do it 자료구조로 배우는 알고리즘 입문 C언어편
 ### Unix System (이승주 저)
