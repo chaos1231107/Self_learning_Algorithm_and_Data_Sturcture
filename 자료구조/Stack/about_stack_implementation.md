@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++ Badge">
 </h1>
 
-## Stack 구조체 (IntStack) : Stack을 관리하는 구조체
+## Stack 구조체 (IntStack) : Stack을 관리하는 구조체, typedef Struct로서 declare된다
 ## Files
 ### IntSack.h : Stack을 구현할 때 필요한 함수들을 저장하는 header file
 ## Paramaters
@@ -16,7 +16,7 @@
 ### III) ptr -> Stack Pointer, Stack이 쌓여있는 데이터의 개수
 
 ## Functions
-### I) Push(IntStack *s, int x) :  Stack에 데이터를 추가하는 함수, 매개변수 : Stack으로 사용하는 int형 array의 value x, 리턴값 : 
+### I) Push(IntStack *s, int x) :  Stack에 데이터를 추가하는 함수
 ### II) Pop(IntStack *s, int *x) : Stack에서 데이터를 빼내는 함수
 ### III) Peek(IntStack *s, int *x) : Top의 데이터를 엿보는 함수
 ### IV) Clear(IntStack *s) : Stack의 모든 요소를 삭제하는 함수
