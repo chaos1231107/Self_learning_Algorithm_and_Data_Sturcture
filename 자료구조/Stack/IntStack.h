@@ -11,9 +11,9 @@ int Initialize(IntStack *s, int max);
 
 int Push(IntStack *s, int x);
 
-int Pop(IntStack *s, int x);
+int Pop(IntStack *s, int *x);
 
-int Peek(const IntStack *s, int x);
+int Peek(const IntStack *s, int *x);
 
 int Clear(IntStack *s);
 /* Stack의 최대용량  */
