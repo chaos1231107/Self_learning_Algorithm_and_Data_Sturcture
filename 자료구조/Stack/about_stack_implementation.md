@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++ Badge">
 </h1>
 
-## Stack 구조체 (IntStack) : Stack을 관리하는 구조체, typedef Struct로서 declare된다
+## Stack 구조체 (IntStack) : Stack을 관리하는 구조체, typedef Struct를 통새 declare된다
 ## Files
 ### IntSack.h : Stack을 구현할 때 필요한 함수들을 저장하는 header file
 ## Paramaters
