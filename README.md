@@ -12,7 +12,7 @@
 ## Developement Environment : Windows, Mac Os
 # ✅ 알아두면 편리한 알고리즘 / 자료구조 모음 ✅
 # Algorithm (알고리즘)
-## ✅ 정렬(Sorting Algorithm) : bubble sort(버블정렬), selection sort(선택정렬), insertion sort(삽입정렬), quick sort(퀵정렬), merge sort(합병정렬)
+## ✅ 정렬(Sorting Algorithm) : bubble sort(버블정렬), selection sort(선택정렬), insertion sort(삽입정렬), quick sort(퀵정렬), merge sort(합병정렬), heap sort(힙정렬)
 ### ✅ 분할정복 알고리즘(Devide and Conquer Algorithm) : quick sort(퀵정렬), merge sort(합병정렬)
 ## ✅ 시간복잡도(Time Complexity) : 프로그램이 실행(탐색)되는데 걸리는 시간을 객관적으로 평가하는 지표, 시간복잡도 계산, Big O 표기법
 ## ✅ 재귀 알고리즘 : 정의된 함수내에서 함수를 재호출하는 알고리즘 ex) 피보나치 수열, 팩토리얼(큰수처리)
@@ -25,6 +25,7 @@
 ## ✅ Queue(큐) : First in First Out(FIFO)의 형태를 가지는 자료구조
 ## ✅ Circular Queue, Ring Buffer (원형큐) : data를 꺼내는 Dequeue() 과정에서 인덱스를 한칸씩 밀때 발생하는 비효율성(Time Complexity = O(N))을 극복하기 위해 원의 모양으로 만들어진 Queue
 ## ✅ Linked List(연결리스트) : 각 노드가 데이터와 포인터를 가지고 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 자료구조
+## ✅ Tree (트리) : root에서 시작해서, 부모노드와 그에 따른 자식노드를 가지며 그것이 간선으로 연결된 자료구조, 보통 Unix 에서의 File System이 이러한 구조를 따른다
 
 ## <참고서적>
 ### 📖 Do it 자료구조로 입문하는 알고리즘 C언어편
