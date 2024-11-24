@@ -4,10 +4,8 @@
 ## Heapify(downheap)
 ![image](https://github.com/user-attachments/assets/3f8de4af-8d8a-40ca-9191-32cf552060c1)
 
-#include <stdio.h>
-#include <stdlib.h>
 
-#define swap(type, x, y) do {type t = x; x = y; y = t;} while(0)
+## Source Code
 
 static void downheap (int a[], int left, int right)
 {
