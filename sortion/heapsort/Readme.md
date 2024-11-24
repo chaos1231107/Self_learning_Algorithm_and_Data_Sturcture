@@ -7,11 +7,18 @@
 
 ## Source Code
 
+
+
 static void downheap (int a[], int left, int right)
+
 {
+
     int temp = a[left];
+    
     int child, parent;
+    
     for (parent = left; parent <= (right+1)/2; parent=child)
+    
     {
         int cl = parent * 2 + 1;
         int cr = cl + 1;
@@ -19,11 +26,15 @@ static void downheap (int a[], int left, int right)
         if (temp >= child) break;
         a[parent] = a[child];
     }
+    
     a[parent] = temp;
+    
 }
+
 
 void heapsort(int a[], int n)
 {
+
     for (int i = (n-1)/2; i >= 0; i--)
         downheap(a, i, n-1);
         
