@@ -6,7 +6,7 @@
 
 
 ## Source Code 
-### Assential two stemps for heap sort
+### Assential two steps for heapsort
 
 ## 1. Heapify and convert heap to array
 
