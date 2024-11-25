@@ -43,7 +43,7 @@ void heapsort(int a[], int n)
         
     for (int i = n-1; i > 0; i--)
     {
-        swap(int, a[0], a[i]);
-        downheap(a, 0, i-1)
+        swap(int, a[0], a[i]); //swap ith element and root of heap
+        downheap(a, 0, i-1); 
     }
 }
