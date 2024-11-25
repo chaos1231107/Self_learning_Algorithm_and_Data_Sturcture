@@ -35,6 +35,7 @@ static void downheap (int a[], int left, int right)
 ## 2. Build complete heap by sorting part to entire heap 
 
 void heapsort(int a[], int n)
+
 {
 
     for (int i = (n-1)/2; i >= 0; i--)
