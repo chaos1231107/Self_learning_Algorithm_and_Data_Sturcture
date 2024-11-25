@@ -24,7 +24,7 @@ static void downheap (int a[], int left, int right)
         int cl = parent * 2 + 1; // left child
         int cr = cl + 1;    // right child
         child = (cr <= right && a[cr] > a[cl])? cr : cl; // select bigger value
-        if (temp >= child) break;
+        if (temp >= a[child]) break;
         a[parent] = a[child];
     }
     
