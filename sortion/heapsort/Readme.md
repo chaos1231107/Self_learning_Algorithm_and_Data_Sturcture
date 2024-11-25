@@ -18,17 +18,17 @@ static void downheap (int a[], int left, int right)
     
     int child, parent;
     
-    for (parent = left; parent <= (right+1)/2; parent=child)
+    for (parent = left; parent <= (right+1)/2; parent=child) 
     
     {
-        int cl = parent * 2 + 1;
-        int cr = cl + 1;
-        child = (cr <= right && a[cr] > a[cl])? cr : cl;
+        int cl = parent * 2 + 1; // left child
+        int cr = cl + 1;    // right child
+        child = (cr <= right && a[cr] > a[cl])? cr : cl; // select bigger value
         if (temp >= child) break;
         a[parent] = a[child];
     }
     
-    a[parent] = temp;
+    a[parent] = temp; // declare root
     
 }
 
