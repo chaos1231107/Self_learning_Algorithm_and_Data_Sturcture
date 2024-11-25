@@ -18,7 +18,7 @@ static void downheap (int a[], int left, int right)
     
     int child, parent;
     
-    for (parent = left; parent <= (right+1)/2; parent=child) 
+    for (parent = left; parent < (right+1)/2; parent=child) 
     
     {
         int cl = parent * 2 + 1; // left child
