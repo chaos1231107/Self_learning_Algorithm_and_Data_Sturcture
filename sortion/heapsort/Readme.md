@@ -8,7 +8,7 @@
 ## Source Code 
 ### Assential two stemps for heap sort
 
-
+## 1. Heapify and convert heap to array
 
 static void downheap (int a[], int left, int right)
 
@@ -32,6 +32,7 @@ static void downheap (int a[], int left, int right)
     
 }
 
+## 2. Build complete heap by sorting part to entire heap 
 
 void heapsort(int a[], int n)
 {
