@@ -64,7 +64,7 @@ void quick(int a[], int left, int right)
 
     int pl = left;
     int pr = right;
-    int center = a[(left+right)/2];
+    int center = a[(pl+pr)/2];
     
     do 
     {
