@@ -37,7 +37,7 @@ void quick(int a[], int left, int right)
     
     do 
     {
-        while (a[pl] < center) pl++; //search untill a[pl] >= center
+        while (a[pl] < center) pl++; //search until a[pl] >= center
         while (center < a[pr]) pr--;
         
         if (pl <= pr) // if bigger value located right index
