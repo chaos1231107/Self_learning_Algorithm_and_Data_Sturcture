@@ -4,12 +4,11 @@
 
 ## Assential Steps for quicksort
 
-### 1. Devide array
+### 1. Devide array 
     int pl = left;
     int pr = right;
     int center = a[(pl+pr)/2];
-### 2. Sort Devided array and swap values
-      do
+    do
     {
         while (a[pl] < center) pl++;
         while (center < a[pr]) pr--;
@@ -23,8 +22,35 @@
         
     }while (pl <= pr);
     
+### 2. Sort Devided array (Conquere)
+  
     if (pl < right) quick(a, pl, right);
     if (left < pr) quick(a, left, pr);
+### Quick sort
+
+void quick(int a[], int left, int right)
+{
+
+    int pl = left;
+    int pr = right;
+    int center = a[(left+right)/2];
+    
+    do 
+    {
+        while (a[pl] < center) pl++; //search while a[pl] >= center
+        while (center < a[pr]) pr--;
+        
+        if (pl <= pr) // if bigger value located right index
+        {
+            swap(int, a[pl], a[pr]);
+            pl++;
+            pr--;
+        }
+    }while (pl <= pr);
+    
+    if (pl < right) quick (a, pl, right);
+    if (left < pr) quick (a, left, pr);
+}
 
 ### Entire source code
 
