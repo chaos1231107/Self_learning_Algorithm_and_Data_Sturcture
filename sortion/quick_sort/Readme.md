@@ -22,7 +22,7 @@
         
     }while (pl <= pr);
     
-### 2. Sort Devided array (Conquere)
+### 2. Sort Devided array (Conquer)
   
     if (pl < right) quick(a, pl, right);
     if (left < pr) quick(a, left, pr);
