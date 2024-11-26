@@ -8,4 +8,21 @@
     int pl = left;
     int pr = right;
     int center = a[(pl+pr)/2];
+### 2. Sort Devided array and swap values
+      do
+    {
+        while (a[pl] < center) pl++;
+        while (center < a[pr]) pr--;
+        
+        if (pl <= pr)
+        {
+            swap(int, a[pl], a[pr]);
+            pl++;
+            pr--;
+        }
+        
+    }while (pl <= pr);
+    
+    if (pl < right) quick(a, pl, right);
+    if (left < pr) quick(a, left, pr);
 
