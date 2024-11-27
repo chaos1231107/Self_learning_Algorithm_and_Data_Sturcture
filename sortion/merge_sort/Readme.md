@@ -44,3 +44,23 @@ int mergesort(int a[], int n) </br> <br/>
     return 0;
 }
 
+int main()
+{
+
+    int nx;
+    scanf("%d", &nx);
+    int *arr = calloc(nx, sizeof(int));
+    if (arr==NULL) return -1;
+    
+    for (int i = 0; i < nx; i++)
+    {
+        scanf("%d ", &arr[i);
+    }
+    mergersort(a, nx);
+    for (int i = 0; i < nx; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+    free(arr);
+{
+
