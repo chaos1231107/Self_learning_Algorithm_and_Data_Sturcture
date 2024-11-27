@@ -19,6 +19,7 @@ static void __mergesort(int a[], int left, int right)
         int j = 0;
         int p = 0; // buffer pointer
         int k = left; 
+        int center = (left + right) / 2;
         __mergesort(a, left, center); 
         __mergesort(a, center+1, right);
         
