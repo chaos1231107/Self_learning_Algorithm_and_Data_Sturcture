@@ -33,8 +33,3 @@ static void __mergesort(int a[], int left, int right)
     }
 }
 
-int main()
-
-{
-    
-}
