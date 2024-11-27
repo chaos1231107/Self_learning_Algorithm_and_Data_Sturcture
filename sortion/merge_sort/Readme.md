@@ -32,6 +32,7 @@ static void __mergesort(int a[], int left, int right)
         while (j < p) a[k++] = buff[j++]; // copy rest of array values
     }
 }
+</br> <br>
 // mergersort function </br> <br/>
 int mergesort(int a[], int n)
 {
