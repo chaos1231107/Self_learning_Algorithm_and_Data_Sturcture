@@ -4,7 +4,7 @@
 #include <stdio.h> </br> <br/>
 #include <stdlib.h>
 
-#define swap (type, x, y) do {type t = x; x = y; y = t;} while(0)
+#define swap (type, x, y) do {type t = x; x = y; y = t;} while(0) </br> <br/>
 // buffer array </br> <br/>
 static int *buff;
 
