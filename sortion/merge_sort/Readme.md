@@ -17,18 +17,23 @@ static void __mergesort(int a[], int left, int right)
     {
         int i;
         int j = 0;
-        int p = 0;
-        int k = left;
-        __mergesort(a, left, center);
+        int p = 0; // buffer pointer
+        int k = left; 
+        __mergesort(a, left, center); 
         __mergesort(a, center+1, right);
         
         for (int i = left; i <= center; i++)
-            buff[p++] = a[i];
+            buff[p++] = a[i];  // copy array
         while (j < p && i <= right)
         {
-            a[k++] = (buff[j] < a[i]) ? buff[j++] : a[i++];
+            a[k++] = (buff[j] < a[i]) ? buff[j++] : a[i++]; // merger array : choose lower value
         }
         
-        while (j < p) a[k++] = a[i++];
+        while (j < p) a[k++] = buff[j++]; // copy rest of array values
     }
+}
+
+int main()
+{
+    
 }
