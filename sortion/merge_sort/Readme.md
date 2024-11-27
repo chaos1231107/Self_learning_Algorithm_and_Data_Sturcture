@@ -29,6 +29,6 @@ static void __mergesort(int a[], int left, int right)
             a[k++] = (buff[j] < a[i]) ? buff[j++] : a[i++];
         }
         
-        while (j < p) a[k++] = a[i];
+        while (j < p) a[k++] = a[i++];
     }
 }
