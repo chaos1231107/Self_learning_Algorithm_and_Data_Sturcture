@@ -32,4 +32,14 @@ static void __mergesort(int a[], int left, int right)
         while (j < p) a[k++] = buff[j++]; // copy rest of array values
     }
 }
+// mergersort function </br> <br/>
+int mergesort(int a[], int n)
+{
+
+    buff = (int *)calloc(n, sizeof(int));
+    if (buff == NULL) return -1;
+    __mergesort(a, 0, n-1); // mergesort : merge n arrays
+    free(buff);
+    return 0;
+}
 
