@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 #define swap (type, x, y) do {type t = x; x = y; y = t;} while(0)
-
+// buffer array
 static int *buff;
 
 static void __mergesort(int a[], int left, int right)
@@ -23,10 +23,10 @@ static void __mergesort(int a[], int left, int right)
         __mergesort(a, center+1, right);
         
         for (int i = left; i <= center; i++)
-            buff[p++] = a[i];  // copy array
+            buff[p++] = a[i];  // copy left side of array
         while (j < p && i <= right)
         {
-            a[k++] = (buff[j] < a[i]) ? buff[j++] : a[i++]; // merger array : choose lower value
+            a[k++] = (buff[j] < a[i]) ? buff[j++] : a[i++]; // merge array : choose lower value
         }
         
         while (j < p) a[k++] = buff[j++]; // copy rest of array values
