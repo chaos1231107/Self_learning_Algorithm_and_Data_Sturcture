@@ -34,7 +34,7 @@ static void __mergesort(int a[], int left, int right)
 }
 </br> <br>
 // mergersort function </br> <br/>
-int mergesort(int a[], int n)
+int mergesort(int a[], int n) </br> <br/>
 {
 
     buff = (int *)calloc(n, sizeof(int));
