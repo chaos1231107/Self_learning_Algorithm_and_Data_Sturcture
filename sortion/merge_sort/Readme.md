@@ -57,7 +57,7 @@ int main()
     {
         scanf("%d ", &arr[i);
     }
-    mergersort(a, nx);
+    mergersort(arr, nx);
     for (int i = 0; i < nx; i++)
     {
         printf("%d ", arr[i]);
