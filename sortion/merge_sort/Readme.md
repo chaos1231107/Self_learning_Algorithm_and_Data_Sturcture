@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 #define swap (type, x, y) do {type t = x; x = y; y = t;} while(0)
-// buffer array
+// buffer array <>/br> <br/>
 static int *buff;
 
 static void __mergesort(int a[], int left, int right)
