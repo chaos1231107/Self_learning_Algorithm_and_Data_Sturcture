@@ -44,7 +44,7 @@ int mergesort(int a[], int n) </br> <br/>
     return 0;
 }
 
-int main()
+int main() </br> <br/>
 {
 
     int nx;
