@@ -73,7 +73,7 @@ int main() </br> <br/>
     if (buff == NULL) return -1;
     __mergesort(a, 0, n-1); // mergesort : merge n arrays
     free(buff);
-## -------------------------------------------------------------------------
+    
     int *arr = calloc(nx, sizeof(int));
      merge(arr, nx);
     for (int i = 0; i < nx; i++)
