@@ -64,7 +64,24 @@ int main() </br> <br/>
         printf("%d ", arr[i]);
     }
     free(arr);
+    return 0;
 {
 ## Caution
 ### When using Dynamic Memory Allocation, be aware of the pointer and problem of run time error </br> <br/> (delete allocated memory)
+
+    buff = calloc(n, sizeof(int));
+    if (buff == NULL) return -1;
+    __mergesort(a, 0, n-1); // mergesort : merge n arrays
+    free(buff);
+    
+-------------------------------------------------------------------------
+    
+    int *arr = calloc(nx, sizeof(int));
+     merge(arr, nx);
+    for (int i = 0; i < nx; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+    free(arr);
+    return 0;
 
