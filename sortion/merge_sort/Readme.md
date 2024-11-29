@@ -66,5 +66,5 @@ int main() </br> <br/>
     free(arr);
 {
 ## Caution
-### When using Dynamic Memory Allocation, be aware of the pointer and problem of run time error (delete allocated memory)
+### When using Dynamic Memory Allocation, be aware of the pointer and problem of run time error </br> <br/> (delete allocated memory)
 
