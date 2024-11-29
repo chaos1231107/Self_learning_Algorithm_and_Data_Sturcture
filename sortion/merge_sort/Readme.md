@@ -38,7 +38,9 @@ static void __mergesort(int a[], int left, int right)
 int mergesort(int a[], int n) </br> <br/>
 {
 
-    if (buff = calloc (n, sizeof(int) == NULL)) return -1;
+    //if (buff = calloc (n, sizeof(int) == NULL)) return -1;
+    buff = calloc(n, sizeof(int));
+    if (buff == NULL) return -1;
     __mergesort(a, 0, n-1); // mergesort : merge n arrays
     free(buff);
     return 0;
