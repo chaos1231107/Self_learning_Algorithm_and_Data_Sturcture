@@ -67,7 +67,7 @@ int main() </br> <br/>
     return 0;
 {
 ## Caution
-### When using Dynamic Memory Allocation, be aware of the pointer and problem of run time error </br> <br/> (delete allocated memory)
+### When using Dynamic Memory Allocation(calloc or malloc) </br> <br/> be aware of the pointer and problem of run time error </br> <br/> (delete allocated memory)
 
     buff = calloc(n, sizeof(int));
     if (buff == NULL) return -1;
