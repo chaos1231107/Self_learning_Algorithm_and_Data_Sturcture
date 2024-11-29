@@ -35,7 +35,7 @@ static void __mergesort(int a[], int left, int right)
 }
 </br> <br>
 // mergersort function </br> <br/>
-int mergesort(int a[], int n) </br> <br/>
+int merge(int a[], int n) </br> <br/>
 {
 
     //if (buff = calloc (n, sizeof(int) == NULL)) return -1;
@@ -58,7 +58,7 @@ int main() </br> <br/>
     {
         scanf("%d ", &arr[i);
     }
-    mergersort(arr, nx);
+    merge(arr, nx);
     for (int i = 0; i < nx; i++)
     {
         printf("%d ", arr[i]);
