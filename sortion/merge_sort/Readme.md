@@ -84,10 +84,11 @@ int main() </br> <br/>
     return 0;
 
 ## CPP Version
-
-#include <iostream>
-#include <vector>
+</br>
+#include <iostream> 
+#include <vector> 
 using namespace std;
+<br/>
 
 static void __mergesort(vector<int> &a, int left, int right, vector<int>& buff)
 {
