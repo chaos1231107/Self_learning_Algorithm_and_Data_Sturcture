@@ -35,7 +35,9 @@ static void __mergesort(int a[], int left, int right) </br> <br/>
 }
 </br> <br>
 // mergersort function </br> <br/>
+
 int merge(int a[], int n) </br> <br/>
+
 {
 
     //if (buff = calloc (n, sizeof(int) == NULL)) return -1;
@@ -47,6 +49,7 @@ int merge(int a[], int n) </br> <br/>
 }
 
 int main() </br> <br/>
+
 {
 
     int nx;
@@ -66,6 +69,7 @@ int main() </br> <br/>
     free(arr);
     return 0;
 {
+
 ## Caution
 ### When using Dynamic Memory Allocation (calloc or malloc) </br> <br/> be aware of the pointer and problem of run time error </br> <br/> (delete allocated memory) </br> <br/> ex) free(buff)
 
@@ -112,7 +116,9 @@ static void __mergesort(vector<int> &a, int left, int right, vector<int>& buff)
         //while (i <= right) a[k++] = a[i++];
     }
 }
+
 int merge(vector<int>& a)
+
 {
 
    try  
@@ -131,6 +137,7 @@ int merge(vector<int>& a)
    }
    
    return 0; </br> <br/>
+   
 }
 
 int main()
