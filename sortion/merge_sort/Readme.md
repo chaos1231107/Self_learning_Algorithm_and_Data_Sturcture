@@ -118,22 +118,21 @@ static void __mergesort(vector<int> &a, int left, int right, vector<int>& buff)
 }
 
 int merge(vector<int>& a)
-
 {
 
    try  
    {
    
        vector<int> buff(a.size());
-       __mergesort(a, 0, a.size()-1, buff);
-       
+       __mergesort(a, 0, a.size()-1, buff);  
    }
    
    
    catch (const bad_alloc& e) 
+   
    {
    
-        return -1;
+       return -1;
    }
    
    return 0; </br> <br/>
