@@ -8,7 +8,7 @@
 // buffer array </br> <br/>
 static int *buff;
 
-static void __mergesort(int a[], int left, int right)
+static void __mergesort(int a[], int left, int right) </br> <br/>
 
 {
 
