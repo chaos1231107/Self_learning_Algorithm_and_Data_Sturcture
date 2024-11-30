@@ -112,7 +112,6 @@ static void __mergesort(vector<int> &a, int left, int right, vector<int>& buff)
         //while (i <= right) a[k++] = a[i++];
     }
 }
-
 int merge(vector<int>& a)
 {
 
@@ -131,7 +130,7 @@ int merge(vector<int>& a)
         return -1;
    }
    
-   return 0;
+   return 0; </br> <br/>
 }
 
 int main()
