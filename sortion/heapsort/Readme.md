@@ -50,9 +50,9 @@ void heapsort(int a[], int n)
 
 ## CPP Version
 
- #include <iostream> 
-
- #include <algorithm>  
+ ### #include <iostream> 
+ ### #include <algorithm> 
+ ### #include <vector>
 using namespace std;  
 
 static void downheap (vector<int>& a, int left, int right) </br> <br/>
