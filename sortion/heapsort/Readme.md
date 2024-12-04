@@ -9,7 +9,7 @@
 ### Assential two steps for heapsort
 
 ## 1. Heapify and convert heap to array
-
+// 
 static void downheap (int a[], int left, int right)
 
 {
@@ -51,7 +51,7 @@ void heapsort(int a[], int n)
 ## CPP Version
  
 using namespace std;  
-
+// build unction to maintain maxheap condition
 static void downheap (vector<int>& a, int left, int right) </br> <br/>
 {
 
