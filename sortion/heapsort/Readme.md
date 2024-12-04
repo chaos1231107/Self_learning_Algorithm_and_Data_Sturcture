@@ -55,7 +55,7 @@ void heapsort(int a[], int n)
 #include <algorithm>  </br> <br/>
 using namespace std;  </br> <br/>
 
-static void downheap (vector<int>& a, int left, int right)
+static void downheap (vector<int>& a, int left, int right) </br> <br/>
 {
 
     int temp = a[left];
