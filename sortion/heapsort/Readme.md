@@ -48,10 +48,9 @@ void heapsort(int a[], int n)
     }
 }
 
-## CPP Version
- 
-using namespace std;  
+## CPP Version 
 // build unction to maintain maxheap condition </br> <br/>
+
 static void downheap (vector<int>& a, int left, int right) </br> <br/>
 {
 
