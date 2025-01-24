@@ -1,5 +1,5 @@
 ## Dynammic Programming(동적계획법)
-### fibonacci Sequence
+### fibonacci Sequence(피보나치 수열)
 ![image](https://github.com/user-attachments/assets/90a77f3f-f322-4c21-94b2-b6a7b4fa6c74)
 
 using namespace std;
