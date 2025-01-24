@@ -23,3 +23,5 @@ int main()
 
     return 0;
 }
+
+![image](https://github.com/user-attachments/assets/bf827920-d348-4cb6-8ca9-206e51a745ff)
