@@ -35,4 +35,32 @@ int main()
  ### │    ├── fibo(1) -> 1
  ### │    └── fibo(0) -> 0
 
+## Dynammic Programming --> Memoijation
+using namespace std;
 
+//int arr[10001];
+vector<int> dp;
+
+int fibo (int x)
+{
+
+    if (x <= 1)
+    {
+        dp[x] = x;
+        return dp[x];
+    }
+    if (dp[x] != -1) return dp[x];
+    
+    dp[x] = fibo(x-1) + fibo(x-2);
+    return dp[x];
+}
+int main()
+{
+
+    int x;
+    cin >> x;
+    dp.resize(x+1, -1);
+    cout << fibo(x);
+
+    return 0;
+}
