@@ -25,3 +25,5 @@ int main()
 }
 ## 기하급수적으로 반복됨 --> 비효율적인 재귀함수 호출 형성
 ![image](https://github.com/user-attachments/assets/bf827920-d348-4cb6-8ca9-206e51a745ff)
+
+
