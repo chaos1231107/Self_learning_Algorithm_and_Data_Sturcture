@@ -2,8 +2,6 @@
 ### <fibonacci Sequence>
 ![image](https://github.com/user-attachments/assets/90a77f3f-f322-4c21-94b2-b6a7b4fa6c74)
 
-## #include ## </br> <iostream> <br/>
-
 using namespace std;
 
 int fib(int x)
