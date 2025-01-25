@@ -69,7 +69,6 @@ int main()
 
 ![image](https://github.com/user-attachments/assets/97a34251-1c22-44b8-8cec-6ee0eaa2d28c)
 ![image](https://github.com/user-attachments/assets/bcf295ce-2321-4010-8053-e3b6bc9563c3)
-![image](https://github.com/user-attachments/assets/a084e537-fe5e-4ccf-9f83-5c28b207706a)
 
 long long combination(long long n, long long r)
 {
