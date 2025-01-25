@@ -65,7 +65,7 @@ int main()
     return 0;
 }
 
-## Triangle of Pascal(파스칼의 삼각형)
+## Triangle of Pascal & Binomial Coefficient(파스칼의 삼각형, 이항계수)
 
 ![image](https://github.com/user-attachments/assets/97a34251-1c22-44b8-8cec-6ee0eaa2d28c)
 ![image](https://github.com/user-attachments/assets/bcf295ce-2321-4010-8053-e3b6bc9563c3)
