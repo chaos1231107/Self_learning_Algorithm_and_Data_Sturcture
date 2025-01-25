@@ -67,6 +67,11 @@ int main()
 
 ## Triangle of Pascal(파스칼의 삼각형)
 
+![image](https://github.com/user-attachments/assets/41eef50c-a789-4d6e-8b51-5fc35529f276)
+![image](https://github.com/user-attachments/assets/bcf295ce-2321-4010-8053-e3b6bc9563c3)
+
+
+
 long long combination(long long n, long long r)
 {
 
