@@ -67,7 +67,7 @@ int main()
 
 ## Triangle of Pascal(파스칼의 삼각형)
 
-![image](https://github.com/user-attachments/assets/0df036fe-74dd-4d17-b13f-e1f02d1021a3)
+![image](https://github.com/user-attachments/assets/97a34251-1c22-44b8-8cec-6ee0eaa2d28c)
 ![image](https://github.com/user-attachments/assets/bcf295ce-2321-4010-8053-e3b6bc9563c3)
 ![image](https://github.com/user-attachments/assets/a084e537-fe5e-4ccf-9f83-5c28b207706a)
 
