@@ -109,6 +109,7 @@ int main()
     
 }
 
+### Binomial Coefficient remainder theorem 
 def bino_coef(n, r):
 
     cache = [[0 for _ in range(r+1)] for _ in range(n+1)]
