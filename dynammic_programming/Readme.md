@@ -95,7 +95,7 @@ long long combination(long long n, long long r)
                 table[countN][countR] = table[countN-1][countR-1] + table[countN-1][countR];
         }
     }
-    return table[n-1][r-1];
+    return table[n][r];
 }
 
 int main()
