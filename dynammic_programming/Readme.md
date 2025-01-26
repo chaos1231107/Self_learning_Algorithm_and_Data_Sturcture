@@ -100,6 +100,8 @@ long long combination(long long n, long long r)
 
 ## Optimal Problem --> find maximum(all) number of cases
 ### Problem of climbing stairs(baekjoon #2579)
+![image](https://github.com/user-attachments/assets/d5924b2d-f5da-476f-86aa-66fda13cb541)
+
 
 using namespace std;
 
