@@ -35,7 +35,7 @@ int main()
  ### │    ├── fibo(1) -> 1
  ### │    └── fibo(0) -> 0
 
-## Dynammic Programming --> Memoijation
+## Top Down Approach - Memoijation
 using namespace std;
 
 //int arr[10001];
