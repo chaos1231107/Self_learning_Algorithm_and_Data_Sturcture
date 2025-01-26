@@ -105,8 +105,8 @@ long long combination(long long n, long long r)
 
 using namespace std;
 
-int stair[301]; </br> 
-<br/> int score[301];
+static int stair[301]; </br> 
+<br/> static int score[301];
 
 int main()
 {
