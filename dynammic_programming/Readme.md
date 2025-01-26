@@ -132,7 +132,7 @@ int main()
     return 0;
 }
 
-### Problem of climbing stairs
+### Problem of climbing stairs(baekjoon #2579)
 
 int main()
 {
