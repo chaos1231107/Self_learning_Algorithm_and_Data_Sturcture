@@ -99,6 +99,7 @@ long long combination(long long n, long long r)
 }
 
 ## Optimal Problem --> find maximum(all) number of cases
+### Problem of climbing stairs(baekjoon #2579)
 
 using namespace std;
 
@@ -131,8 +132,6 @@ int main()
 
     return 0;
 }
-
-### Problem of climbing stairs(baekjoon #2579)
 
 int main()
 {
