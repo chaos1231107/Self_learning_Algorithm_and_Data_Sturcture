@@ -98,6 +98,16 @@ long long combination(long long n, long long r)
     return table[n][r];
 }
 
+int main()
+{
+
+    long long n, r;
+    scanf("%lld %lld", &n, &r);
+    printf("%lld", combination(n,r));
+    return 0;
+    
+}
+
 ## Optimal Problem --> find maximum(=all) number of cases
 ### Problem of climbing stairs(baekjoon #2579)
 ![image](https://github.com/user-attachments/assets/d5924b2d-f5da-476f-86aa-66fda13cb541)
@@ -135,15 +145,7 @@ int main()
     return 0;
 }
 
-int main()
-{
 
-    long long n, r;
-    scanf("%lld %lld", &n, &r);
-    printf("%lld", combination(n,r));
-    return 0;
-    
-}
 
 ### Binomial Coefficient remainder theorem 
 def bino_coef(n, r):
