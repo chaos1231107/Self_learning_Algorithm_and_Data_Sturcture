@@ -98,6 +98,10 @@ long long combination(long long n, long long r)
     return table[n][r];
 }
 
+## Optimal Problem --> find maximum(all) number of cases
+
+### Problem of climbing stairs
+
 int main()
 {
 
