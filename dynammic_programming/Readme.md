@@ -100,6 +100,38 @@ long long combination(long long n, long long r)
 
 ## Optimal Problem --> find maximum(all) number of cases
 
+using namespace std;
+
+int stair[301];
+int score[301];
+
+int main()
+{
+
+    int n;
+    cin >> n;
+    
+    for (int i = 1; i <= n; i++)
+        cin >> stair[i];
+        
+    score[1] = stair[1];
+    score[2] = stair[1] + stair[2];
+    score[3] = max(stair[2] + stair[3], stair[1] + stair[3]);
+    
+    for (int i = 4; i <= n; i++)
+    {
+        int case1 = score[i-2] + stair[i];
+        int case2 = score[i-3] + stair[i-1] + stair[i];
+        score[i] = max(case1, case2);
+    }
+    
+    cout << score[n];
+    
+    
+
+    return 0;
+}
+
 ### Problem of climbing stairs
 
 int main()
