@@ -65,6 +65,24 @@ int main()
     return 0;
 }
 
+using namespace std;
+
+int main()
+{
+
+    int n;
+    cin >> n;
+    long long dp[91];
+    dp[0] = 0;
+    dp[1] = 1;
+    for (int i = 2; i <= n; i++)
+    {
+        dp[i] = dp[i-2] + dp[i-1];
+    }
+    cout << dp[n];
+    return 0;
+}
+
 ## Triangle of Pascal & Binomial Coefficient(파스칼의 삼각형, 이항계수)
 
 ![image](https://github.com/user-attachments/assets/97a34251-1c22-44b8-8cec-6ee0eaa2d28c)
