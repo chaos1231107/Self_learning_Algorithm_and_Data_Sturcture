@@ -35,53 +35,7 @@ int main()
  ### │    ├── fibo(1) -> 1
  ### │    └── fibo(0) -> 0
 
-## Top Down Approach - Memoijation
-using namespace std;
-
-//int arr[10001];
-vector<int> dp;
-
-int fibo (int x)
-{
-
-    if (x <= 1)
-    {
-        dp[x] = x;
-        return dp[x];
-    }
-    if (dp[x] != -1) return dp[x];
-    
-    dp[x] = fibo(x-1) + fibo(x-2);
-    return dp[x];
-}
-int main()
-{
-
-    int x;
-    cin >> x;
-    dp.resize(x+1, -1);
-    cout << fibo(x);
-
-    return 0;
-}
-
-using namespace std;
-
-int main()
-{
-
-    int n;
-    cin >> n;
-    long long dp[91];
-    dp[0] = 0;
-    dp[1] = 1;
-    for (int i = 2; i <= n; i++)
-    {
-        dp[i] = dp[i-2] + dp[i-1];
-    }
-    cout << dp[n];
-    return 0;
-}
+## Top down approach(상향식 접근법) Vs Buttom up approach(하향식 접근법)
 
 ## Triangle of Pascal & Binomial Coefficient(파스칼의 삼각형, 이항계수)
 
