@@ -39,6 +39,8 @@ int main()
 ### Top down approach(샹향식 접근법)
 ![image](https://github.com/user-attachments/assets/2e8bffed-b387-4648-aa93-8673c4a971ba)
 ### Buttom up approach(햐향식 접근법)
+![image](https://github.com/user-attachments/assets/c80a67f1-6eb5-43d8-a156-84795e2644f7)
+
 
 
 ## Triangle of Pascal & Binomial Coefficient(파스칼의 삼각형, 이항계수)
