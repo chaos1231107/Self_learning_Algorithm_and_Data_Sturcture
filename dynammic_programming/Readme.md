@@ -36,8 +36,10 @@ int main()
  ### │    └── fibo(0) -> 0
 
 ## Top down approach(상향식 접근법) Vs Buttom up approach(하향식 접근법)
-### Top down approach)(샹향식 접근법)
+### Top down approach(샹향식 접근법)
 ![image](https://github.com/user-attachments/assets/2e8bffed-b387-4648-aa93-8673c4a971ba)
+### Buttom up approach(햐향식 접근법)
+
 
 ## Triangle of Pascal & Binomial Coefficient(파스칼의 삼각형, 이항계수)
 
