@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int cnt = 0;
+static int cnt = 0;
 
 int recursion(const char *s, int l, int r)
 {
