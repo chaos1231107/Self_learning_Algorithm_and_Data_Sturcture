@@ -17,7 +17,7 @@ int main()
         
         for (int i = 1; i < b; i++)
         {
-            data_num *= a;
+            data_num *= a; //pow(a,b) number of data
             data_num = (data_num % MOD) % MOD;
         }
         
