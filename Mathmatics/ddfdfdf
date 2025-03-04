@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+vector<int> getprime(int a, int b)
+{
+    vector<bool> isprime(b+1, true);
+    isprime[0] = isprime[1] = false;
+    for (int i = 2; i*i <= b; i++)
+    {
+        if (isprime[i])
+        {
+            for (int j = i; j <= b; j+=i)
+                isprime = false;
+        }
+    }
+    
+    vector<int> prime;
+    for (int i = a; i <= b; i++)
+    {
+        if(isprime[i])
+            prime.push_back(i);
+    }
+    return prime;
+}
+int main()
+{
+    int a, b;
+    cin >> a;
+    cin >> b;
+    vector<int> primes = getprime(a, b);
+    int sum = 0;
+    int minprime = INT_MAX;
+    
+    for (int prime : primes)
+        sum += prime;
+        minprime = min(minprime, prime)
+}
+
+if (primes.empty())
+    cout << "-1\n";
+else
+    cout << sum << "\n" << minprime;
