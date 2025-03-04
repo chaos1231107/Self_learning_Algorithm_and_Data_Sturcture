@@ -18,7 +18,7 @@ int main()
         for (int i = 1; i < b; i++)
         {
             data_num *= a; //pow(a,b) number of data
-            data_num = (data_num % MOD) % MOD;
+            data_num = (data_num % MOD) % MOD; // prevent overflow (data type int)
         }
         
         if (data_num % MOD == 0)
