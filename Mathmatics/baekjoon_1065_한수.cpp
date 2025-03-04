@@ -1,4 +1,4 @@
-// c++17 ver
+// C++17 ver
 #include <bits/stdc++.h>
 using namespace std;
 //static int cnt = 0;
