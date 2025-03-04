@@ -14,7 +14,7 @@ vector<int> sieve(int n, int a, int b)
     {
         if (prime[p]) 
         {
-            for (int i = p * p; i <= n; i += p) 
+            for (int i = 2 * p; i <= n; i += p) 
                 prime[i] = false;
         }
     }
