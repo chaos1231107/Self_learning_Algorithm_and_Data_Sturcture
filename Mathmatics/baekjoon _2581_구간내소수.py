@@ -27,3 +27,36 @@ if len(result) != 0:
 else:
     print("-1")
 
+
+
+import math
+import sys
+
+def is_prime(n):
+    if n == 1:
+        return False
+    for i in range(2, int(math.sqrt(n)+1)):
+        if n % i == 0:
+            return False
+    return True
+
+l = []
+prime_list = []
+cnt = 0
+#in_val = 0
+while True:
+    try:
+        in_val = int(input())
+        if in_val == 0:
+            break
+        l.append(in_val)
+    except valueError:
+        print('e');
+        
+    
+for n in l:
+    for num in range(n, 2*n+1):
+        if is_prime(num):
+            cnt+=1
+        
+print(cnt)
