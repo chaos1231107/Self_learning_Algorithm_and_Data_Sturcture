@@ -146,3 +146,4 @@ def bino_coef(n, r):
     return cache[n][r]
 
 ### 최단경로 찾기
+#### N번째 항의 최단경로를 저장할 배열 dp[N]으로 놓는다
