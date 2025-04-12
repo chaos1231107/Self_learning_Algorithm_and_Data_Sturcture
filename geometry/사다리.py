@@ -1,6 +1,6 @@
 import sys
 
-x, y, c = map(int, sys.stdin.readline().split())
+x, y, c = map(float, sys.stdin.readline().split())
 high = min(x, y)
 low = 1 
 res = 0
