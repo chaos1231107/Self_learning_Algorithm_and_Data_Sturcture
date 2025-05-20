@@ -38,9 +38,7 @@ int main()
     if (max_sum == 0)
         printf("SAD\n");
     else
-    {
         printf("%d\n%d", max_sum, cnt);
-    }
     
     free(arr);
     free(prefix_sum);
