@@ -39,8 +39,7 @@ int main()
         printf("SAD\n");
     else
     {
-        printf("%d\n", max_sum);
-        printf("%d", cnt);
+        printf("%d\n%d", max_sum, cnt);
     }
     
     free(arr);
