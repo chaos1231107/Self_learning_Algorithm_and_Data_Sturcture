@@ -9,8 +9,8 @@ int main()
     
     int N;
     cin >> N;
-    int *arr1 = (int*)calloc(N+1, sizeof(int));
-    int *arr2 = (int*)calloc(N+1, sizeof(int));
+    int *arr1 = static_cast<int*>(malloc((N+1) * sizeof(int)));
+    int *arr2 = static_cast<int*>(malloc((N+1) * sizeof(int)));
     
     for (int i = 0; i < N; i++)
         cin >> arr1[i];
